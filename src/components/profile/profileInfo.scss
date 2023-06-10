@@ -1,0 +1,48 @@
+.profile_about{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+.profile_image{
+    background: gray;
+    border-radius: 12px;
+}
+
+.profile_info{
+    margin: 3px 20px;
+
+}
+
+.profile_name{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.profile_life{
+    font-weight: 400;
+    font-size: 17px;
+
+    color: gray;
+
+    display: flex;
+    // justify-content: center;
+}
+
+.Profile__about{
+    width: 650px;
+
+    margin: 20px 0;
+
+    &--text{
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+
+    &--visite{
+        display: flex;
+        align-items: center;
+
+        width: 100px;
+        justify-content: space-between;
+    }
+}  

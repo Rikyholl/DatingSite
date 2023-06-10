@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+}
+
+.layout{
+    margin-left: 150px;
+    
+}
+
+.container{
+    width: 1300px;
+    margin: 30px auto;
+}
+
+//Elemets
+
+@import './components/profile/profileInfo.scss';
+@import './components/gallery/photogallery.scss';
+@import './components/layout/sidebar/sidebar.scss';
