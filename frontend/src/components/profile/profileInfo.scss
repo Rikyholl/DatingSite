@@ -1,5 +1,10 @@
 .profile_about{
-    display: flex;
+    // display: flex;
+    display: grid;
+    grid-template-columns: 2fr 4fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -44,5 +49,7 @@
 
         width: 100px;
         justify-content: space-between;
+
+        color: gray;
     }
 }  

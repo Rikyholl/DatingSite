@@ -17,15 +17,15 @@ const PhotoGallery = () => {
     //         })
     // }, [])
 
-    useEffect(() => {
-        axios.get('http://127.0.0.1:8000/api/profiles')
-            .then((res) => {
-                console.log(res);
-            })
-            .catch((err) =>{
-                console.log(err);
-            })
-    })
+    // useEffect(() => {
+    //     axios.get('http://localhost:8000/api/profiles/1/')
+    //         .then((res) => {
+    //             console.log(res);
+    //         })
+    //         .catch((err) =>{
+    //             console.log(err);
+    //         })
+    // })
     
     return (
         <div className='photo_gallery'>

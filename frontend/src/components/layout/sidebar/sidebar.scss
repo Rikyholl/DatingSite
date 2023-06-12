@@ -35,17 +35,18 @@
 
     &--text{
         font-size: 14px;
+        font-weight: 500;
         margin-left: 7px;
 
         transition: .2s linear;
-
-        &:hover{
-            color: rgb(189 68 178);
-        }
     }
 
     &:last-child{
        position: absolute;
        bottom: 0;
+    }
+
+    &:hover{
+        color: rgb(189 68 178);
     }
 }

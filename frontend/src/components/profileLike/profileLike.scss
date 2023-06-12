@@ -1,0 +1,26 @@
+.profile__like{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    &--btn{
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background: rgba(251, 208, 247, .1);
+        box-shadow: 1px 4px 32px 4px rgba(32, 56, 75, 0.16);
+
+        
+        &:hover{
+            background: rgba(242, 166, 234, 0.1);
+        }
+    }
+
+    
+}
