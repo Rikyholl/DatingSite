@@ -1,8 +1,14 @@
 from rest_framework.views import APIView
+from rest_framework.generics import RetrieveAPIView
 from rest_framework.response import Response
 from rest_framework import status
 from .models import Profile
 from api.serializers import ProfileSerializer
+
+
+class ProfileDetailView(RetrieveAPIView):
+    queryset = Profile.objects.all()
+    serializer_class = ProfileSerializer
 
 
 class ProfileView(APIView):
